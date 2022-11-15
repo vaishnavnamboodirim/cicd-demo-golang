@@ -1,4 +1,4 @@
-module https://github.com/vaishnavnamboodirim/cicd-demo-golang
+module github.com/vaishnavnamboodirim/cicd-demo-golang
 
 go 1.17
 
