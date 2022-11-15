@@ -3,6 +3,10 @@ pipeline {
     tools {
         go 'go1.17'
     }
+    environment {
+        GO114MODULE = 'auto'
+        CGO_ENABLED = 0 
+    }
     stages {
         stage('Build') {
             steps {
