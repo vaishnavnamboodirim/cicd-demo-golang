@@ -14,9 +14,7 @@ pipeline {
         
         stage('Test') {
             steps {
-                sh "go test main_test.go"
-                sh "go test main_test.go -v"
-                sh "go test sum_test.go -v"
+                sh "go test"
             }
         }
         
